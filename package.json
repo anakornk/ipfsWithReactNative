@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "ipfs-http-client": "^29.0.0",
+    "node-libs-react-native": "^1.0.3",
     "react": "16.6.3",
     "react-native": "0.57.8"
   },
