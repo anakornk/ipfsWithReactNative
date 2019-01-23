@@ -31,7 +31,7 @@ react-native init ipfsWithReactNative
 yarn add node-libs-react-native
 yarn add vm-browserify
 ```
-3. In the project root directory, create `rn-cli.config.js`
+3. In the project root directory, create `metro.config.js`
 ```
 const nodeLibs = require('node-libs-react-native');
 nodeLibs.vm  = require.resolve('vm-browserify');
