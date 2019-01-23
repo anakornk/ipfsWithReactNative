@@ -26,6 +26,7 @@ export default class App extends Component<Props> {
       fileInText: 'empty'
     }
   }
+
   componentDidMount() {
     var that = this;
     this.ipfs.cat('/ipfs/QmeomffUNfmQy76CQGy9NdmqEnnHU9soCexBnGU3ezPHVH', function (err, file) {
@@ -41,7 +42,6 @@ export default class App extends Component<Props> {
   }
 
   render() {
-    var ipfs
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>

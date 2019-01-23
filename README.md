@@ -87,7 +87,7 @@ yarn add ipfs-http-client
 
 In App.js, import ipfs client.  
 ```
-ipfsClient
+import ipfsClient from 'ipfs-http-client';
 ```
 Add the following two methods inside your App React component. 
 ```
@@ -128,12 +128,4 @@ react-native run-ios
 The content of the testFile should be displayed.
 
 ## References
-1. https://gist.github.com/dougbacelar/29e60920d8fa1982535247563eb63766
-2. https://github.com/parshap/node-libs-react-native/issues/6
-3. https://github.com/facebook/react-native/issues/16434
-
-## Extra
-1. The above code uses websocket provider, if you want to use http provider, you will need to edit a node_modules file since there's currently a problem with XMLHttpRequest. For more information, please see the link below:  
-https://github.com/souldreamer/xhr2-cookies/issues/7
-2. `vm-browserify` is not a RN-compatible polyfill for vm, but works for now. For more information, please see the link below:
-https://github.com/parshap/node-libs-react-native/issues/6
+1. https://github.com/anakornk/web3WithReactNative
