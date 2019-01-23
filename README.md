@@ -113,7 +113,7 @@ Add the following two methods inside your App React component.
     })
   }
 ```
-Add the following code in your render method to display the text content the file stored at '/ipfs/QmeomffUNfmQy76CQGy9NdmqEnnHU9soCexBnGU3ezPHVH'
+Add the following code in your render method to display the text content of the file stored at '/ipfs/QmeomffUNfmQy76CQGy9NdmqEnnHU9soCexBnGU3ezPHVH'
 ```
 <Text>{this.state.fileInText}</Text>
 ```
