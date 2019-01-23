@@ -4,21 +4,25 @@ A boilertemplate for using IPFS with React Native
 ### Test Environment
 ```
 node: v10.4.1
-yarn: 6.4.1
+yarn: 1.12.3
 react: 16.6.3
 react-native: 0.57.8
-web3: 1.0.0-beta.37
+IPFS HTTP Client: 29.0.0
 
 Operating System
 iOS Simuator: iPhone X iOS 12.1
-Android Simulator: AVD Nexus 5X API 27
 ```
 
 
 ## Setup
-1. `git clone git@github.com:anakornk/web3WithReactNative.git`
+1. `git clone git@github.com:anakornk/ipfsWithReactNative.git`
 2. `yarn install`
-3. `ganache-cli`
+3. 
+```
+ipfs daemon
+echo "test" > testFile
+ipfs add testFile
+```
 4. `react-native run-ios` or `react-native run-android`
 
 ## Step By Step Guide
