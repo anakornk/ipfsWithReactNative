@@ -38,7 +38,6 @@ export default class App extends Component<Props> {
       })
       console.log(text)
     })
-
   }
 
   render() {
