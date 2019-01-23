@@ -28,7 +28,7 @@ export default class App extends Component<Props> {
   }
   componentDidMount() {
     var that = this;
-    ipfs.cat('/ipfs/QmeomffUNfmQy76CQGy9NdmqEnnHU9soCexBnGU3ezPHVH', function (err, file) {
+    this.ipfs.cat('/ipfs/QmeomffUNfmQy76CQGy9NdmqEnnHU9soCexBnGU3ezPHVH', function (err, file) {
       if (err) {
         throw err
       }
